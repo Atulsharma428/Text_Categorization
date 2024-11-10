@@ -73,7 +73,7 @@ XGBoost Classifier: The cleaned and transformed text data is split into training
 ### Evaluation
 Accuracy Calculation: The model's performance is evaluated using accuracy as the primary metric. Results are printed at the end of the script.
 ## Results
-XGBoost Accuracy: The model achieved an accuracy of 100% on the test dataset, where X is the calculated value during training and testing.
+XGBoost Accuracy: The model achieved an accuracy of X% on the test dataset, where X is the calculated value during training and testing. (And the Maximum accuracy was 100%) 
 ## Conclusion
 This project demonstrates the effectiveness of using NLP techniques combined with XGBoost for text classification tasks. The preprocessing steps, especially text cleaning and lemmatization, helped improve the model's performance.
 

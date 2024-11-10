@@ -45,17 +45,15 @@ This project aims to categorize grievances based on their textual descriptions i
 2. Navigate to the project directory:
 
 ```bash
-Copy code
 cd Grievance-Category-Classification
+```
 Install the required Python packages:
-```
 ```bash
-Copy code
 pip install -r requirements.txt
-Download the NLTK stop words and lemmatizer data:
 ```
+Download the NLTK stop words and lemmatizer data:
+
 ```python
-Copy code
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
